@@ -54,7 +54,7 @@ The MIMIC-IV database is a subset of deidentified electronic health records (EHR
 
 **9. What data does each instance consist of? “Raw” data (e.g., unprocessed text or images) or features? In either case, please provide a description.**
 
-MIMIC IV (hosp and ICU module) and MIMIC-IV-ED (ED module) consists of raw unprocessed text, Date time and number data in comma-separated format of the patients admitted to the hospital, ICU, and ED. Whereas, MIMIC-CXR and MIMIC-Note contains images of the Chest X-Rays and free-text clinical notes for hospitalized patients respectively. Table [Download PDF](https://github.com/anand-adroid/Datasheet_for_CRD.io/blob/main/Datasheet_tables.pdf)
+MIMIC IV (hosp and ICU module) and MIMIC-IV-ED (ED module) consists of raw unprocessed text, Date time and number data in comma-separated format of the patients admitted to the hospital, ICU, and ED. Whereas, MIMIC-CXR and MIMIC-Note contains images of the Chest X-Rays and free-text clinical notes for hospitalized patients respectively. <a href="https://github.com/anand-adroid/Datasheet_for_CRD.io/blob/main/Datasheet_tables.pdf" download>Table</a>
 provides detailed feature information of the data.
 
 **10. Is there a label or target associated with each instance? If so, please provide a description.**
@@ -128,7 +128,7 @@ No, all data in the database is de-identified in accordance with HIPAA regulatio
 
 Yes, database recorded demographic information like ethnicity, gender, age, marital status, language and insurance
 
-###_ 17. + Does researchers have to take any important measures to handle the data with care?
+### 17. + Does researchers have to take any important measures to handle the data with care?
 
 To ensure patient privacy, researchers are required to comply data usage agreements mandated in [Physionet](https://physionet.org/content/mimiciv/2.2/)  and obtain the necessary approvals and certifications before accessing the dataset. Researchers working with healthcare-related data have a responsibility to handle the data carefully and ethically, taking measures to prevent any potential harm or dissatisfaction. While the data is de-identified in accordance with HIPAA regulations, it is crucial to treat the data with respect and caution, following best practices. Additionally, the collection of patient information and the creation of the research resource have been approved by the Institutional Review Board of the Beth Israel Deaconess Medical Center.
 
