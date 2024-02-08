@@ -27,3 +27,7 @@ The data within each module is structured in the form of tables, as MIMIC is a w
 **_+ 3. Can the modules be linked together to create specific dataset for specific tasks?_**
 
 **Yes**. The tables within a module can be connected to other tables within the same module or across different modules using unique identifiers.
+
+**_+ 4. Explain in detail the tables presented in each module?_**
+
+
