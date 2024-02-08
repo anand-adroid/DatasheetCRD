@@ -29,6 +29,7 @@ The data within each module is structured in the form of tables, as MIMIC is a w
 **Yes**. The tables within a module can be connected to other tables within the same module or across different modules using unique identifiers.
 
 **_+ 4. Explain in detail the tables presented in each module?_**
+
 Complete list of tables of all the modules are available in ![Table Description](https://github.com/anand-adroid/Datasheet_for_CRD.io/blob/main/Datasheet_tables.pdf)
 
 
