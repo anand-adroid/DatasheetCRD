@@ -20,17 +20,17 @@ The **Note** module contains deidentified free-text clinical notes for hospitali
 \
 The **CXR** module of MIMIC IV-CXR provides lookup tables that establish connections between patient identifiers and MIMIC-CXR study_id and dicom_id, facilitating the analysis of patient chest x-rays in conjunction with clinical data from other MIMIC-IV modules.    \
 \
-###_+ 2. How is the data arranged within each modules and for what purpose?
+### + 2. How is the data arranged within each modules and for what purpose?
 
 The data within each module is structured in the form of tables, as MIMIC is a well-organized relational database. Each table within a module represents a specific type of data. Within each table, the data is organized into rows and columns. Each row corresponds to a particular patient or event, while each column represents a specific variable or attribute corresponding to that row. This organized structure allows researchers to efficiently extract customized datasets tailored to their research inquiries and facilitates the construction of machine learning models.
 
-###_+ 3. Can the modules be linked together to create specific dataset for specific tasks?
+### + 3. Can the modules be linked together to create specific dataset for specific tasks?
 
 **Yes**. The tables within a module can be connected to other tables within the same module or across different modules using unique identifiers.
 
-###_+ 4. Explain in detail the tables presented in each module?
+### + 4. Explain in detail the tables presented in each module?
 
-Complete list of tables of all the modules is available to download [Download PDF](https://github.com/anand-adroid/Datasheet_for_CRD.io/blob/main/Datasheet_tables.pdf)
+<a href="https://github.com/anand-adroid/Datasheet_for_CRD.io/blob/main/Datasheet_tables.pdf" download>Download Table</a>
 
 ### + 5. Can/How the dataset be/are created from the MIMIC database?
 
