@@ -51,7 +51,8 @@ For instance, If we intend to create a *MIMIC IV ED dataset* by linking ED, hosp
 
 **8. Does the dataset/database contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g., geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).**
 
-The MIMIC-IV database is a subset of deidentified electronic health records (EHRs) obtained from patients admitted to BIDMC between 2008 and 2019. It is a curated collection that has undergone validation and quality assurance by a team of interdisciplinary experts. The database includes a diverse range of patients and diagnoses, making it suitable for various research purposes. However, it is important to acknowledge that the dataset is not comprehensive, as it represents a subset of the overall patient population. Researchers should be mindful of potential biases inherent in the dataset and employ appropriate methods to address them when conducting analyses or studies[[^1](https://mimic.mit.edu/)].
+The MIMIC-IV database is a subset of deidentified electronic health records (EHRs) obtained from patients admitted to BIDMC between 2008 and 2019. It is a curated collection that has undergone validation and quality assurance by a team of interdisciplinary experts. The database includes a diverse range of patients and diagnoses, making it suitable for various research purposes. However, it is important to acknowledge that the dataset is not comprehensive, as it represents a subset of the overall patient population. Researchers should be mindful of potential biases inherent in the dataset and employ appropriate methods to address them when conducting analyses or studies[^1].
+[^1]:(https://mimic.mit.edu/)
 
 **9. What data does each instance consist of? “Raw” data (e.g., unprocessed text or images) or features? In either case, please provide a description.**
 
@@ -77,7 +78,7 @@ Our analysis of the MIMIC IV dataset has revealed several biases and inconsisten
 +    **Inconsistencies in hospital admit and discharge timestamps:** The admission table exhibits inconsistencies in the recorded timestamps, and there are also *missing values for death time*.
 +    **Potential representation bias in the dataset:** The database owners acknowledge the potential for bias, particularly since the data is derived from a single hospital system and may not be *representative of the entire population*.
 
-The data in the [database](https://physionet.org/content/mimiciv/2.2/) is collected during routine clinical practice, reflecting the specific practices of the hospital. It is important to note that there may be implausible values present in the database due to the archival process[[^1](https://mimic.mit.edu/)]. Therefore, caution should be exercised when using the data, and researchers should be mindful of the dataset limitations and potential biases.
+The data in the [database](https://physionet.org/content/mimiciv/2.2/) is collected during routine clinical practice, reflecting the specific practices of the hospital. It is important to note that there may be implausible values present in the database due to the archival process[^1]. Therefore, caution should be exercised when using the data, and researchers should be mindful of the dataset limitations and potential biases.
 
 We strongly recommend that researchers adhere to best practice [guidelines](https://www.ahajournals.org/doi/full/10.1161/01.CIR.101.23.e215) when analyzing the data
 
