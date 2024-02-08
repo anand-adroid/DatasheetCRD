@@ -87,11 +87,12 @@ Yes, the MIMIC IV dataset includes medical records of patients, encompassing con
 
 Yes. Database (specifically admission and patient tables) has patient demographic data such as age, gender, ethnicity, language, insurance, and marital status.
 
-**MIMIC IV Distribution statistics**
+### MIMIC IV Distribution statistics
+
+ **Admission distribution statistics**
 
 | Description               | Value     |
 |---------------------------|-----------|
-| **Admission distribution statistics** |            |
 | Total records             | 180,733   |
 | Male                      | 47%       |
 | Female                    | 53%       |
@@ -99,18 +100,20 @@ Yes. Database (specifically admission and patient tables) has patient demographi
 | Max Age                   | 91        |
 | Predominant Ethnicity     | White (67.2%) |
 
+**Patient distribution statistics**
+
 | Description               | Value     |
 |---------------------------|-----------|
-| **Patient distribution statistics** |           |
 | Total records             | 299,712   |
 | Male                      | 47%       |
 | Female                    | 53%       |
 | Min Age                   | 18        |
 | Max Age                   | 91        |
 
+**ED table distribution statistics**
+
 | Description               | Value     |
 |---------------------------|-----------|
-| **ED table distribution statistics** |        |
 | Total records             | 299,712   |
 | Male                      | 46%       |
 | Female                    | 54%       |
@@ -125,7 +128,7 @@ No, all data in the database is de-identified in accordance with HIPAA regulatio
 
 Yes, database recorded demographic information like ethnicity, gender, age, marital status, language and insurance
 
-### 17. + Does researchers have to take any important measures to handle the data with care?
+###_ 17. + Does researchers have to take any important measures to handle the data with care?
 
 To ensure patient privacy, researchers are required to comply data usage agreements mandated in [Physionet](https://physionet.org/content/mimiciv/2.2/)  and obtain the necessary approvals and certifications before accessing the dataset. Researchers working with healthcare-related data have a responsibility to handle the data carefully and ethically, taking measures to prevent any potential harm or dissatisfaction. While the data is de-identified in accordance with HIPAA regulations, it is crucial to treat the data with respect and caution, following best practices. Additionally, the collection of patient information and the creation of the research resource have been approved by the Institutional Review Board of the Beth Israel Deaconess Medical Center.
 
