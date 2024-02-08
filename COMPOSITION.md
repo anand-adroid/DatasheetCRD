@@ -30,7 +30,7 @@ The data within each module is structured in the form of tables, as MIMIC is a w
 
 ###_+ 4. Explain in detail the tables presented in each module?
 
-Complete list of tables of all the modules are available in [Table Description](https://github.com/anand-adroid/Datasheet_for_CRD.io/blob/main/Datasheet_tables.pdf)
+Complete list of tables of all the modules is available to download [Download PDF](https://github.com/anand-adroid/Datasheet_for_CRD.io/blob/main/Datasheet_tables.pdf)
 
 ### + 5. Can/How the dataset be/are created from the MIMIC database?
 
@@ -54,7 +54,7 @@ The MIMIC-IV database is a subset of deidentified electronic health records (EHR
 
 **9. What data does each instance consist of? “Raw” data (e.g., unprocessed text or images) or features? In either case, please provide a description.**
 
-MIMIC IV (hosp and ICU module) and MIMIC-IV-ED (ED module) consists of raw unprocessed text, Date time and number data in comma-separated format of the patients admitted to the hospital, ICU, and ED. Whereas, MIMIC-CXR and MIMIC-Note contains images of the Chest X-Rays and free-text clinical notes for hospitalized patients respectively. [Table]((https://github.com/anand-adroid/Datasheet_for_CRD.io/blob/main/Datasheet_tables.pdf)
+MIMIC IV (hosp and ICU module) and MIMIC-IV-ED (ED module) consists of raw unprocessed text, Date time and number data in comma-separated format of the patients admitted to the hospital, ICU, and ED. Whereas, MIMIC-CXR and MIMIC-Note contains images of the Chest X-Rays and free-text clinical notes for hospitalized patients respectively. Table [Download PDF](https://github.com/anand-adroid/Datasheet_for_CRD.io/blob/main/Datasheet_tables.pdf)
 provides detailed feature information of the data.
 
 **10. Is there a label or target associated with each instance? If so, please provide a description.**
