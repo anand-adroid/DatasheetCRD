@@ -18,7 +18,7 @@ Our study employed the *Chi-Square* statistical test to discern the attribute mo
 
 ## 30-day ICU Readmission Analysis
 
-![Relationship between Readmission rates and patient's ethnicity/insurance](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try_3_Readmitted_based_on_Insurance.png)
+![Relationship between Readmission rates and patient's ethnicity/insurance](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try_3_Readmitted_based_on_Insurance.jpg)
 
 
 **Cohort Distribution Insights** \
