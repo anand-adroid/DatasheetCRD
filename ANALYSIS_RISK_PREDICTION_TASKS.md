@@ -19,11 +19,9 @@ Our study employed the *Chi-Square* statistical test to discern the attribute mo
 ## 30-day ICU Readmission Analysis
 
 <figure>
-    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Sepsis Dead V alive based on Insurance and race percentage grouped horizontal bar chart (1).jpg" 
-    alt="Sepsis Mortality in Relation to Ethnicity/Insurance : Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased."
+    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Try 3 Readmitted based on Insurance and race percentage bar chart.jpg" 
+    alt="Relationship between Readmission rates and patient's ethnicity/insurance: Figure depicts the % values of readmission and no readmission cases, analyzing the correlation with patient's Ethnicity and Insurance status."
 </figure>
-
-
 
 **Cohort Distribution Insights** \
 The median age for patients readmitted to the ICU within 30 days was 64, with a distribution of 56% male and 44% female. Predominantly, the White demographic represented 69% of the cohort, followed by Black, Other, Hispanic/Latino, and Asian subgroups, reflecting the geographical context of data collection.
@@ -42,6 +40,11 @@ The analysis reveals that the Black subgroup, along with Medicaid-insured Asian 
 The cohort's median age was 63, evenly distributed between male (53%) and female (47%) patients. The dataset primarily comprised the White demographic (69%), with subsequent representation from Black, Other, Hispanic/Latino, and Asian subgroups.
 **Insurance Utilization Patterns:**Medicare emerged as the most utilized insurance across all ethnicities (51%), with Other insurance closely behind at 41%. Medicaid saw the least utilization at 8%. Notably, White and Black patients had the highest Medicare utilization, indicative of an older population within these communities. Conversely, minority groups showed a preference for Other insurance, suggesting a relatively younger demographic or the presence of private insurance coverage. Despite being the largest demographic, only 5.5% of Caucasians utilized Medicaid, whereas Black patients had a higher Medicaid utilization, highlighting socio-economic disparities.
 
+<figure>
+    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Sepsis Dead V alive based on Insurance and race percentage grouped horizontal bar chart (1).jpg" 
+    alt="Sepsis Mortality in Relation to Ethnicity/Insurance : Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased."
+</figure>
+
 **The mortality rate analysis** \
 Analysis starkly illustrates that individuals from other ethnic groups and Asians had consistently higher death proportions, irrespective of their insurance status. The Chi-square test (χ² = 975.185, p < 0.001)  validate a strong association between ethnicity and sepsis mortality, underlining the necessity of considering demographic variables in predictive modeling of sepsis mortality.
 
@@ -53,6 +56,11 @@ Heart failure cohort consisted of patients with a median age of 72, with a nearl
 **Cohort Insurance utilization** \
 White and Black individuals had the highest patient counts, followed by the Other subgroup. Medicare was the most commonly used insurance among all the subgroups, except for Asians, as indicated by the figure. White patients exhibited the highest utilization of Medicare, followed by the Other-ethnic subgroup. Medicaid utilization was lower across all subgroups, except for Hispanic/Latino, Asian, and Black patients. 
 
+<figure>
+    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Try 2 Insurance_by race pie final (1).jpg" 
+    alt="Insurance Utilization among Heart Failure Cohorts based on Ethnicity: Figure showcases the % insurance utilization within heart failure patients, categorized by their respective ethnicity."
+</figure>
+
 **Mortality rate** \
 Individuals from other ethnic groups consistently exhibited higher mortality rates, irrespective of their insurance. Asians insured with Other and Medicaid also demonstrated a relatively higher proportion of death. Caucasian death rates were significantly lower in comparison to other subgroups. The chi-square test statistic yielded a significant result of 105.107 (p < 0.001), providing robust evidence of an association between the variables. 
 
@@ -63,6 +71,11 @@ CKD cohort primarily consists of older male patients, with a median age of 71 wh
 
 **Cohort Insurance utilization** \
 Medicare insurance is widely utilized, with 60.5% of patients across all ethnicity opting for it. Medicaid records the lowest utilization, with only 4.7% of patients utilizing it. Among the race subgroups, White and Black individuals demonstrate the highest usage of Medicare insurance, while Asians show a preference for other insurance types. 2.3% of Caucasians utilize Medicaid insurance whereas Black patients have a higher utilization of Medicaid insurance compared to other subgroups.
+
+<figure>
+    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Try 3 Dead V alive based on Insurance and race percentage bar chart.jpg" 
+    alt="% CKD mortality rate with respect to their Ethnicity/Insurance."
+</figure>
 
 **Mortality rate** \
 The figure shows individuals from other-ethnic groups consistently exhibit higher proportions of deaths, regardless of their insurance type. Medicare-insured Blacks experience the second-highest mortality rates, preceded by Caucasians. The chi-square (χ² = 106.578, p < 0.001) statistical test shows a significant association suggesting a potential relationship between ethnicity and mortality outcomes.
