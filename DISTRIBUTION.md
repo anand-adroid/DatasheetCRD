@@ -1,4 +1,4 @@
-## + 1. Is the data publicly available? How and where can it be accessed (e.g., website, GitHub)?
+### + 1. Is the data publicly available? How and where can it be accessed (e.g., website, GitHub)?
 
 Yes. The MIMIC-IV data is accessible to the public through PhysioNet. To gain access, individuals need to become a PhysioNet credentialed user and agree to the data use agreement. Once granted access, users can download the complete set of files or select specific subsets that align with their requirements. [PhysioNet](https://physionet.org/content/mimiciv/2.2/)
 
