@@ -19,7 +19,7 @@ Our study employed the *Chi-Square* statistical test to discern the attribute mo
 ## 30-day ICU Readmission Analysis
 
 ![Relationship between Readmission rates and patient's ethnicity/insurance](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try%203%20Readmitted%20based%20on%20Insurance%20and%20race%20percentage%20bar%20chart.jpg)
-* Figure 1: Relationship between Readmission rates and patient's ethnicity/insurance*
+*Figure 1: Relationship between Readmission rates and patient's ethnicity/insurance*
 
 
 **Cohort Distribution Insights** \
@@ -42,7 +42,7 @@ The cohort's median age was 63, evenly distributed between male (53%) and female
 
 
 ![Sepsis Mortality in Relation to Ethnicity/Insurance: Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased.](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Sepsis%20Dead%20V%20alive%20based%20on%20Insurance%20and%20race%20percentage%20grouped%20horizontal%20bar%20chart%20(1).jpg)
-*Figure 2: Sepsis Mortality in Relation to Ethnicity/Insurance: Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased.*
+*Figure 2: Sepsis Mortality in Relation to Ethnicity/Insurance: Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased*
   
 
 **The mortality rate analysis** \
@@ -57,7 +57,7 @@ Heart failure cohort consisted of patients with a median age of 72, with a nearl
 White and Black individuals had the highest patient counts, followed by the Other subgroup. Medicare was the most commonly used insurance among all the subgroups, except for Asians, as indicated by the figure. White patients exhibited the highest utilization of Medicare, followed by the Other-ethnic subgroup. Medicaid utilization was lower across all subgroups, except for Hispanic/Latino, Asian, and Black patients. 
 
 ![Insurance Utilization among Heart Failure Cohorts based on Ethnicity: Figure showcases the % insurance utilization within heart failure patients, categorized by their respective ethnicity.](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try%202%20Insurance_by%20race%20pie%20final%20(1).jpg)
-*Figure 3: Insurance Utilization among Heart Failure Cohorts based on Ethnicity: Figure showcases the % insurance utilization within heart failure patients, categorized by their respective ethnicity.*
+*Figure 3: Insurance Utilization among Heart Failure Cohorts based on Ethnicity: Figure showcases the % insurance utilization within heart failure patients, categorized by their respective ethnicity*
 
 
 **Mortality rate** \
@@ -72,7 +72,7 @@ CKD cohort primarily consists of older male patients, with a median age of 71 wh
 Medicare insurance is widely utilized, with 60.5% of patients across all ethnicity opting for it. Medicaid records the lowest utilization, with only 4.7% of patients utilizing it. Among the race subgroups, White and Black individuals demonstrate the highest usage of Medicare insurance, while Asians show a preference for other insurance types. 2.3% of Caucasians utilize Medicaid insurance whereas Black patients have a higher utilization of Medicaid insurance compared to other subgroups.
 
 ![% CKD mortality rate with respect to their Ethnicity/Insurance.](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try%203%20Dead%20V%20alive%20based%20on%20Insurance%20and%20race%20percentage%20bar%20chart.jpg)
-*Figure 4: % CKD mortality rate with respect to their Ethnicity/Insurance.*
+*Figure 4: % CKD mortality rate with respect to their Ethnicity/Insurance*
 
 
 **Mortality rate** \
