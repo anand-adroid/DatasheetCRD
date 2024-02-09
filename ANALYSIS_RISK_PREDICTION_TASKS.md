@@ -40,7 +40,7 @@ The cohort's median age was 63, evenly distributed between male (53%) and female
 
 
 
-![Sepsis Mortality in Relation to Ethnicity/Insurance : Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased.](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Sepsis Dead V alive based on Insurance and race percentage grouped horizontal bar chart (1).jpg)
+![Sepsis Mortality in Relation to Ethnicity/Insurance: Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased.](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Sepsis%20Dead%20V%20alive%20based%20on%20Insurance%20and%20race%20percentage%20grouped%20horizontal%20bar%20chart%20(1).jpg)
   
 
 **The mortality rate analysis** \
@@ -54,10 +54,8 @@ Heart failure cohort consisted of patients with a median age of 72, with a nearl
 **Cohort Insurance utilization** \
 White and Black individuals had the highest patient counts, followed by the Other subgroup. Medicare was the most commonly used insurance among all the subgroups, except for Asians, as indicated by the figure. White patients exhibited the highest utilization of Medicare, followed by the Other-ethnic subgroup. Medicaid utilization was lower across all subgroups, except for Hispanic/Latino, Asian, and Black patients. 
 
-<figure>
-    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Try 2 Insurance_by race pie final (1).jpg" 
-    alt="Insurance Utilization among Heart Failure Cohorts based on Ethnicity: Figure showcases the % insurance utilization within heart failure patients, categorized by their respective ethnicity."
-</figure>
+![Insurance Utilization among Heart Failure Cohorts based on Ethnicity: Figure showcases the % insurance utilization within heart failure patients, categorized by their respective ethnicity.](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try%202%20Insurance_by%20race%20pie%20final%20(1).jpg)
+
 
 **Mortality rate** \
 Individuals from other ethnic groups consistently exhibited higher mortality rates, irrespective of their insurance. Asians insured with Other and Medicaid also demonstrated a relatively higher proportion of death. Caucasian death rates were significantly lower in comparison to other subgroups. The chi-square test statistic yielded a significant result of 105.107 (p < 0.001), providing robust evidence of an association between the variables. 
@@ -70,10 +68,8 @@ CKD cohort primarily consists of older male patients, with a median age of 71 wh
 **Cohort Insurance utilization** \
 Medicare insurance is widely utilized, with 60.5% of patients across all ethnicity opting for it. Medicaid records the lowest utilization, with only 4.7% of patients utilizing it. Among the race subgroups, White and Black individuals demonstrate the highest usage of Medicare insurance, while Asians show a preference for other insurance types. 2.3% of Caucasians utilize Medicaid insurance whereas Black patients have a higher utilization of Medicaid insurance compared to other subgroups.
 
-<figure>
-    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Try 3 Dead V alive based on Insurance and race percentage bar chart.jpg" 
-    alt="% CKD mortality rate with respect to their Ethnicity/Insurance."
-</figure>
+![% CKD mortality rate with respect to their Ethnicity/Insurance.](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try%203%20Dead%20V%20alive%20based%20on%20Insurance%20and%20race%20percentage%20bar%20chart.jpg)
+
 
 **Mortality rate** \
 The figure shows individuals from other-ethnic groups consistently exhibit higher proportions of deaths, regardless of their insurance type. Medicare-insured Blacks experience the second-highest mortality rates, preceded by Caucasians. The chi-square (χ² = 106.578, p < 0.001) statistical test shows a significant association suggesting a potential relationship between ethnicity and mortality outcomes.
