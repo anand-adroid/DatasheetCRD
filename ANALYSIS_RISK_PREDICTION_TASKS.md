@@ -18,10 +18,8 @@ Our study employed the *Chi-Square* statistical test to discern the attribute mo
 
 ## 30-day ICU Readmission Analysis
 
-<figure>
-    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Try 3 Readmitted based on Insurance and race percentage bar chart.jpg" 
-    alt="Relationship between Readmission rates and patient's ethnicity/insurance: Figure depicts the % values of readmission and no readmission cases, analyzing the correlation with patient's Ethnicity and Insurance status."
-</figure>
+![Relationship between Readmission rates and patient's ethnicity/insurance](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try_3_Readmitted_based_on_Insurance.png)
+
 
 **Cohort Distribution Insights** \
 The median age for patients readmitted to the ICU within 30 days was 64, with a distribution of 56% male and 44% female. Predominantly, the White demographic represented 69% of the cohort, followed by Black, Other, Hispanic/Latino, and Asian subgroups, reflecting the geographical context of data collection.
@@ -40,10 +38,10 @@ The analysis reveals that the Black subgroup, along with Medicaid-insured Asian 
 The cohort's median age was 63, evenly distributed between male (53%) and female (47%) patients. The dataset primarily comprised the White demographic (69%), with subsequent representation from Black, Other, Hispanic/Latino, and Asian subgroups.
 **Insurance Utilization Patterns:**Medicare emerged as the most utilized insurance across all ethnicities (51%), with Other insurance closely behind at 41%. Medicaid saw the least utilization at 8%. Notably, White and Black patients had the highest Medicare utilization, indicative of an older population within these communities. Conversely, minority groups showed a preference for Other insurance, suggesting a relatively younger demographic or the presence of private insurance coverage. Despite being the largest demographic, only 5.5% of Caucasians utilized Medicaid, whereas Black patients had a higher Medicaid utilization, highlighting socio-economic disparities.
 
-<figure>
-    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Sepsis Dead V alive based on Insurance and race percentage grouped horizontal bar chart (1).jpg" 
-    alt="Sepsis Mortality in Relation to Ethnicity/Insurance : Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased."
-</figure>
+
+
+![Sepsis Mortality in Relation to Ethnicity/Insurance : Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased.](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Sepsis Dead V alive based on Insurance and race percentage grouped horizontal bar chart (1).jpg)
+  
 
 **The mortality rate analysis** \
 Analysis starkly illustrates that individuals from other ethnic groups and Asians had consistently higher death proportions, irrespective of their insurance status. The Chi-square test (χ² = 975.185, p < 0.001)  validate a strong association between ethnicity and sepsis mortality, underlining the necessity of considering demographic variables in predictive modeling of sepsis mortality.
