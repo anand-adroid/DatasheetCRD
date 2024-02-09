@@ -18,10 +18,10 @@ Our study employed the *Chi-Square* statistical test to discern the attribute mo
 
 ## 30-day ICU Readmission Analysis
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Sepsis Dead V alive based on Insurance and race percentage grouped horizontal bar chart (1).pdf" alt="Sepsis Mortality in Relation to Ethnicity/Insurance : Figure illustrates the \% mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased." width="45%" />
-  <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Try 2 Insurance_by race pie final (1).pdf" alt="Insurance Utilization among Heart Failure Cohorts Based on Ethnicity" width="45%" />
-</div>
+<figure>
+    <img src="https://github.com/anand-adroid/Datasheet_for_CRD.io/tree/main/Images/Sepsis Dead V alive based on Insurance and race percentage grouped horizontal bar chart (1).jpg" 
+    alt="Sepsis Mortality in Relation to Ethnicity/Insurance : Figure illustrates the % mortality among sepsis patients by depicting the variations in mortality across different ethnic groups and insurance categories, with Label 0 denoting the alive patients and Label 1 indicating the deceased."
+</figure>
 
 
 
