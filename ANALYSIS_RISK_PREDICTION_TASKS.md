@@ -1,4 +1,14 @@
-MIMIC-III and IV have been pivotal in healthcare machine learning (HML) prediction tasks. This analysis zeroes in on MIMIC-IV version 2.0, the most recent release available to the public. <a href="https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/MIMMIC IV ICU stat of senisitive attributes.pdf" download="MIMMIC IV ICU stat of senisitive attributes.pdf">Table</a> provides the complete overview of the sensitive attributes of MIMIC IV ICU data. From the survey we identified ICU Mortality, Readmission and Length of stay (LOS) are the most widely researched tasks. So we procured datasets for, 
+MIMIC-III and IV have been pivotal in healthcare machine learning (HML) prediction tasks. This analysis zeroes in on MIMIC-IV version 2.0, the most recent release available to the public. <a href="https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/MIMMIC IV ICU stat of senisitive attributes.pdf" download="MIMMIC IV ICU stat of senisitive attributes.pdf">Table</a> provides the complete overview of the sensitive attributes of MIMIC IV ICU data. 
+
+## Analysis of Sensitive Attributes and Their Association With Prediction Outcomes for MIMIC IV ICU data
+
+Our study employed the *Chi-Square* statistical test to discern the attribute most strongly associated with prediction outcomes. The chi-square test results illuminate the relationships between various patient sensitive characteristics and mortality, guiding the feature selection for predictive modeling and fairness evaluation. Gender, with a chi-square statistic of 3.33 and a p-value of approximately 0.068, shows a marginal association with mortality; however, it falls just outside the conventional alpha level of 0.05 for statistical significance. Age, despite a high chi-square statistic of 151.77, yields a p-value of 0.467, suggesting that the observed variations across different ages could be due to chance, thus making it less reliable for predicting mortality in this context.
+
+Language shows a similar pattern to gender, with a chi-square statistic of 3.37 and a p-value of about 0.066, hovering near the boundary of significance but not conclusively so. This marginal association suggests that while there might be some relationship with mortality, it is not as strong or as clear-cut as one would prefer for a predictive model.
+
+In contrast, *ethnicity* and *insurance* status demonstrate a much stronger association with mortality outcomes. Ethnicity, in particular, stands out with a significant chi-square statistic and a p-value of 2.704e^-15 that effectively rejects the null hypothesis of no association. While insurance status also exhibits a significant p-value (2.630E^-17), the decision to focus on ethnicity over insurance (potential ambiguity in Other Insurance information) is driven by the detailed and consistent recording of ethnic data in the MIMIC dataset. This level of detail in the ethnicity data provides a solid foundation for predictive analysis, ensuring that the model's outcomes are both reliable and interpretable.
+
+From the survey conducted in the paper, we identified the below as most widely researched predictive modelling tasks. So we procured datasets for, 
 - In-hospital mortality concerning 
   - Heart failure
   - Chronic kidney disease (CKD)
@@ -9,27 +19,8 @@ by adhering to the established [pipeline](https://proceedings.mlr.press/v193/gup
 
 For sepsis mortality, we directly extracted patient data affected by sepsis, omitting the use of a specific pipeline, to validate and compare outcomes derived from both methodologies.
 
-## Analysis of Sensitive Attributes and Their Association With Prediction Outcomes
-
-Our study employed the *Chi-Square* statistical test to discern the attribute most strongly associated with prediction outcomes. Despite considering various sensitive attributes such as Age, Gender, Ethnicity, Insurance, Language, and Marital Status, chi-square results predominantly indicated that ethnicity bore the most significant association with the prediction tasks. Hence Ethnicity is the sensitive attribute considered throughout the modelling and fairness evaluation of the main paper.
-
 ### Risk Prediction Analysis:
 
-
-## 30-day ICU Readmission Analysis
-
-![Relationship between Readmission rates and patient's ethnicity/insurance](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try%203%20Readmitted%20based%20on%20Insurance%20and%20race%20percentage%20bar%20chart.jpg)
-*Figure 1: Relationship between Readmission rates and patient's ethnicity/insurance*
-
-
-**Cohort Distribution Insights** \
-The median age for patients readmitted to the ICU within 30 days was 64, with a distribution of 56% male and 44% female. Predominantly, the White demographic represented 69% of the cohort, followed by Black, Other, Hispanic/Latino, and Asian subgroups, reflecting the geographical context of data collection.
-
-**Insurance Utilization Patterns** \
-A significant portion of the cohort primarily relied on Other insurance (48%), with Medicare following closely at 44%. The analysis indicates that Other-subgroup and Hispanic/Latino patients predominantly utilized Other insurance, with Black and Asian patients following suit. Medicaid utilization was notably lower across all ethnic subgroups, at 8%. Interestingly, only a small fraction (5.4%) of Caucasian patients utilized Medicaid, with Black and Other ethnic patients showing higher Medicaid utilization, underscoring socio-economic disparities.
-
-**Readmission Rates and Ethnicity** \
-The analysis reveals that the Black subgroup, along with Medicaid-insured Asian patients, displayed higher readmission rates across various ailments. The chi-square (χ² = 141.89, p < 0.001) test further corroborate the significant association between ethnicity concerning readmission rates.
 
 ## In-Hospital Mortality Prediction 
 
@@ -78,6 +69,22 @@ Medicare insurance is widely utilized, with 60.5% of patients across all ethnici
 **Mortality rate** \
 The figure shows individuals from other-ethnic groups consistently exhibit higher proportions of deaths, regardless of their insurance type. Medicare-insured Blacks experience the second-highest mortality rates, preceded by Caucasians. The chi-square (χ² = 106.578, p < 0.001) statistical test shows a significant association suggesting a potential relationship between ethnicity and mortality outcomes.
 
+
+## 30-day ICU Readmission Analysis
+
+![Relationship between Readmission rates and patient's ethnicity/insurance](https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/Images/Try%203%20Readmitted%20based%20on%20Insurance%20and%20race%20percentage%20bar%20chart.jpg)
+*Figure 1: Relationship between Readmission rates and patient's ethnicity/insurance*
+
+
+**Cohort Distribution Insights** \
+The median age for patients readmitted to the ICU within 30 days was 64, with a distribution of 56% male and 44% female. Predominantly, the White demographic represented 69% of the cohort, followed by Black, Other, Hispanic/Latino, and Asian subgroups, reflecting the geographical context of data collection.
+
+**Insurance Utilization Patterns** \
+A significant portion of the cohort primarily relied on Other insurance (48%), with Medicare following closely at 44%. The analysis indicates that Other-subgroup and Hispanic/Latino patients predominantly utilized Other insurance, with Black and Asian patients following suit. Medicaid utilization was notably lower across all ethnic subgroups, at 8%. Interestingly, only a small fraction (5.4%) of Caucasian patients utilized Medicaid, with Black and Other ethnic patients showing higher Medicaid utilization, underscoring socio-economic disparities.
+
+**Readmission Rates and Ethnicity** \
+The analysis reveals that the Black subgroup, along with Medicaid-insured Asian patients, displayed higher readmission rates across various ailments. The chi-square (χ² = 141.89, p < 0.001) test further corroborate the significant association between ethnicity concerning readmission rates.
+
 ### ICU Length of Stay Prediction
 
 The ICU LOS > 7 days cohort had a median age of 72, balanced between males (55%) and females (45%). The dataset predominantly consisted of Whites (69%), followed by other demographic groups. 
@@ -103,4 +110,4 @@ The ICU LOS > 7 days cohort had a median age of 72, balanced between males (55%)
 Furthermore, Chi-square (p < 0.001) statistical test confirms an association between LOS and ethnicity, reinforcing the influence of these demographic factors on ICU outcomes for heart failure patients.
 
 
-This analysis underscores the importance of considering ethnic demographics in predictive modeling.
+This analysis underscores the importance of considering the feature association, data quality in predictive modeling.
