@@ -1,4 +1,4 @@
-MIMIC-III and IV have been pivotal in healthcare machine learning (HML) prediction tasks. This analysis zeroes in on MIMIC-IV version 2.0, the most recent release available to the public. We procured datasets for, 
+MIMIC-III and IV have been pivotal in healthcare machine learning (HML) prediction tasks. This analysis zeroes in on MIMIC-IV version 2.0, the most recent release available to the public. <a href="https://raw.githubusercontent.com/anand-adroid/Datasheet_for_CRD.io/main/MIMMIC IV ICU stat of senisitive attributes.pdf" download="MIMMIC IV ICU stat of senisitive attributes.pdf">Table</a> provides the complete overview of the sensitive attributes of MIMIC IV ICU data. From the survey we identified ICU Mortality, Readmission and Length of stay (LOS) are the most widely researched tasks. So we procured datasets for, 
 - In-hospital mortality concerning 
   - Heart failure
   - Chronic kidney disease (CKD)
