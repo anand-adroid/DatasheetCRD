@@ -8,11 +8,11 @@ To spark advances in fair HML and to aid practitioners, we present a comprehensi
 - [Motivation](MOTIVATION.md)
 - [Composition](COMPOSITION.md)
 - [Collection Process](COLLECTION_PROCESS.md)
-- [Preprocessing/cleaning/labeling](PREPROCESSING_CLEANING_LABELING.md)
+- [Preprocessing/cleaning/labeling](PREPROCESSING_CLEANING.md)
 - [Uses](USES.md)
 - [Distribution](DISTRIBUTION.md)
 - [Maintenance](MAINTENANCE.md)
-- [Analysis - Risk Prediction Tasks](ANALYSIS_RISK_PREDICTION_TASKS.md)
+- [Analysis - Risk Prediction Tasks](ANALYSIS_RISK_PREDICTION.md)
 
 This datasheet, inspired by [Gebru et al., 2021](https://dl.acm.org/doi/pdf/10.1145/3458723) template, has been adapted for the intricacies of Clinical Research Databases (CRDs) and enriched to offer a thorough understanding of the data's fabric and its implications for HML tasks.
 
